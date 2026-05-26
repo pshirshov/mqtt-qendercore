@@ -53,7 +53,7 @@ impl QcoreClient {
         headers.insert(HeaderName::from_static("sec-gpc"), header_value("1")?);
         headers.insert(
             HeaderName::from_static("x-qc-client-seq"),
-            header_value("W.1.1")?,
+            header_value("W.4.0")?,
         );
 
         let http = Client::builder()

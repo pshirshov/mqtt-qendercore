@@ -74,7 +74,7 @@ function getHeaders() {
         'Sec-Fetch-Mode': 'cors',
         'Sec-Fetch-Site': 'same-site',
         'Sec-GPC': '1',
-        'x-qc-client-seq': 'W.1.1',
+        'x-qc-client-seq': 'W.4.0',
     };
 }
 
